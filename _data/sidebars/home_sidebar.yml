@@ -5,10 +5,10 @@ entries:
   levels: one
   folders:
 
-  - title: Products
+  - title: Bootcamp
     output: web
     folderitems:
-    - title: News
+    - title: Bootcamp
       url: /news.html
       output: web
     - title: Theme instructions
