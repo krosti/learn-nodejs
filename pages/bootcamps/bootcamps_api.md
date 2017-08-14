@@ -3,7 +3,8 @@ title: Learn how to develop an API
 tags: [formatting]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: August 14, 2017
-sidebar: bootcamp
+sidebar: bootcamps
+toc: false
 permalink: bootcamps_api.html
 ---
 
@@ -593,3 +594,5 @@ see: http://stackoverflow.com/a/33876615/1148249 (*answer*
 
 [npm-image]: https://img.shields.io/npm/v/hapi.svg?style=flat
 [npm-url]: https://npmjs.org/package/learn-hapi
+
+

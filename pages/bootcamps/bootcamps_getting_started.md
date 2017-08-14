@@ -3,7 +3,8 @@ title: Learn how to develop an API
 tags: [formatting]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: August 14, 2017
-sidebar: bootcamp
+sidebar: bootcamps
+toc: false
 permalink: bootcamps_getting_started.html
 ---
 
