@@ -34,7 +34,7 @@ permalink: bootcamps_index.html
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x"></i>
                            <i class="fa fa-car fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -49,7 +49,7 @@ permalink: bootcamps_index.html
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x"></i>
                            <i class="fa fa-support fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -64,7 +64,7 @@ permalink: bootcamps_index.html
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x"></i>
                            <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>

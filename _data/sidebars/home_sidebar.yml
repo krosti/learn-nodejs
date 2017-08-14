@@ -8,11 +8,15 @@ entries:
   - title: Index
     output: web
     folderitems:
-    - title: List of Bootcamps
+    - title: Reference
       url: /bootcamps_index.html
       output: web
-    - title: Expertice
-      url: /expertice_index.html
+
+    - title: Exercises
+      url: /exercises_index.html
+      output: web
+    - title: Other
+      url: /other_index.html
       output: web
     # - title: Product 1
     #   url: /p1_landing_page.html

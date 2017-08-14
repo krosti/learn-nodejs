@@ -1,5 +1,5 @@
 ---
-permalink: expertice_index.html
+permalink: other_index.html
 ---
 
 
