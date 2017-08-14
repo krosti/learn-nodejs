@@ -9,7 +9,7 @@ permalink: bootcamps_index.html
 ---
 
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/learn-hapi/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/krosti/learn-nodejs/issues)
 
 <div class="row">
          <div class="col-lg-12">

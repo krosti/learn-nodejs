@@ -1,5 +1,3 @@
-## Welcome to Learn NodeJS
-
 
 ## What is Node.js ?
 

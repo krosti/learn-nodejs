@@ -9,7 +9,7 @@ permalink: bootcamps_api.html
 
 [![NPM Version][npm-image]][npm-url]
 
-# Learn Hapi [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/learn-hapi/issues)
+# Learn Hapi [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/krosti/learn-nodejs/issues)
 
 
 Happiness is learning how to use the [**Hapi.js**](http://hapijs.com/) (Node.js) web framework to
