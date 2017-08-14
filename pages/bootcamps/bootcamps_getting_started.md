@@ -18,7 +18,7 @@ In this very first tutorial, you will learn what Node.js is, how to install it o
 
 ### NodeJS in a nutshell
 
-![alt text](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png =250x)
+![alt text](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png "Logo Title Text 1")
 
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
@@ -84,6 +84,7 @@ Once you hit Enter, you will get something like this:
 
 ```js
 > console.log('hello from Node.js')
+
 hello from Node.js  
 undefined  
 ```
@@ -94,7 +95,7 @@ It is time to create our Hello Node.js application!
 
 Let’s start with creating a file called index.js. Open up your IDE (Atom, Sublime, Code - you name it), create a new file and save it with the name index.js. If you’re done with that, copy the following snippet into this file:
 
-```
+```js
 // index.js
 
 console.log('hello from Node.js')  
@@ -108,7 +109,7 @@ Once you successfully navigated yourself to the right spot, run your file using 
 
 Now you have your index.js file, so it is time to level up your game! Let's create something more complex by splitting our source code into multiple JavaScript files with the purpose of readability and maintainability. To get started, head back to your IDE (Atom, Sublime, Code - you name it) and create the following directory structure (with empty files), but leave the package.json out for now, we will generate it automatically in the next step:
 
-```bash
+```shell
 ├── app
 |   ├── calc.js
 |   └── index.js
@@ -140,7 +141,7 @@ It's a good practice to add a start script to your package.json - once you do th
 
 Now let’s head back to the first file you created called index.js. I recommend to keep the this file very thin - only requiring the application itself (the index.js file from the /app subdirectory you created before). Copy the following script into your index.js file and hit save to do this:
 
-```
+```js
 // index.js
 
 require('./app/index') 
@@ -150,7 +151,7 @@ Now it is time to start building the actual application. Open the index.js file 
 
 Paste this script to the index.js file in your /app directory.
 
-```
+```js
 // app/index.js
 const calc = require('./calc')
 
@@ -169,7 +170,7 @@ console.log(`The result is: ${result}`)
 
 Now paste the actual business logic into the calc.js file that can be found in the same folder.
 
-```
+```js
 // app/calc.js
 function sum (arr) {  
   return arr.reduce(function(a, b) { 
