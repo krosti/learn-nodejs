@@ -4,8 +4,11 @@
     font-size:16px;
 }
 
-
-h3 {color: #E50E51; }
+h1 {
+    font-weight: bold;
+    color: aquamarine;
+}
+h3 {color: #1884c7; }
 h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
@@ -14,15 +17,15 @@ h4 {color: #808080; }
 }
 
 .nav > li.active > a {
-    background-color: #72ac4a;
+    background-color: aquamarine;
 }
 
 .nav > li > a:hover {
-    background-color: #72ac4a;
+    background-color: aquamarine;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #72ac4a;
+    background-color: aquamarine;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -35,7 +38,7 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 
 .nav li.thirdlevel > a {
     background-color: #FAFAFA !important;
-    color: #72ac4a;
+    color: aquamarine;
     font-weight: bold;
 }
 
@@ -46,8 +49,8 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #72ac4a;
-    border-color: #5b893c;
+    background-color: #3c0848;
+    border-color: #5f1e75;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -61,7 +64,7 @@ a[data-toggle="tooltip"] {
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #72ac4a !important;
+    border-color: aquamarine !important
 }
 
 .btn-primary {
@@ -75,7 +78,7 @@ a[data-toggle="tooltip"] {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #72ac4a;
+    background-color: aquamarine;
     border-color: #5b893c;
 }
 
