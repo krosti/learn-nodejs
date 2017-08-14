@@ -1,14 +1,5 @@
 ## Welcome to Learn NodeJS
 
-### Index
-
-* [Introduction](README.md)
-  * [About](about/README.md)
-* [Node.js Core](core/README.md)
-  * [Assert](core/assert/README.md)
-  * [Buffer](core/buffer/README.md)
-    * [Bits & Bytes](core/buffer/bits-bytes-and-hex.md)
-
 
 ## What is Node.js ?
 
@@ -37,10 +28,9 @@ Bookmark: [http://nodejs.org/api](http://nodejs.org/api/) (you will come back to
 
 
 
-
 ## Frequently Asked Questions (FAQ)
 
-#### *Q*: I am *New* to Programming Should I *Start* with Node.js?
+### *Q*: I am *New* to Programming Should I *Start* with Node.js?
 
 If you have *never* written any code of any sort before,
 I recommend you starting with: http://gitbookio.gitbooks.io/javascript/
