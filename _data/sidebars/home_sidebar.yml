@@ -8,8 +8,8 @@ entries:
   - title: Bootcamp
     output: web
     folderitems:
-    - title: Bootcamp
-      url: /bootcamp.html
+    - title: List of Bootcamps
+      url: /practices.html
       output: web
     # - title: Theme instructions
     #   url: /mydoc_introduction.html
