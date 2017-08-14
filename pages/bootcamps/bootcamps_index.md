@@ -1,6 +1,5 @@
 ---
 title: Index of Bootcamps 😁
-tags: [formatting]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: July 3, 2016
 summary: "Needs to be validated"
