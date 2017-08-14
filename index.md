@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Welcome to Learn NodeJS
 
-You can use the [editor on GitHub](https://github.com/krosti/learn-nodejs/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Index
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## What is Node.js ?
 
-```markdown
-Syntax highlighted code block
+Node.js lets you *easily* build networked software (websites, applications "apps"
+using JavaScript).
 
-# Header 1
-## Header 2
-### Header 3
+Node.js is not "*point-and-click*" like WordPress, SquareSpace or Salesforce.com;
+you will need to *write* some "code". But as I will demonstrate, that's
+a *lot* easier than it sounds (if you're *new* to writing code),
+gives you more power/flexibility and puts you in full control.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+# Try it!
 
-[Link](url) and ![Image](src)
-```
+## Download & Install
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+> http://nodejs.org/download/
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/krosti/learn-nodejs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Node.js (Core) API
 
-### Support or Contact
+The node.js ("core") has many useful modules.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Bookmark: [http://nodejs.org/api](http://nodejs.org/api/) (you will come back to it)
+
+
+
+
+# Frequently Asked Questions (FAQ)
+
+## *Q*: I am *New* to Programming Should I *Start* with Node.js?
+
+If you have *never* written any code of any sort before,
+I recommend you starting with: http://gitbookio.gitbooks.io/javascript/
+You need to have **JavaScript** basics to make the most of Node.js
