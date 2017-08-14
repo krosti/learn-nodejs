@@ -9,7 +9,7 @@ entries:
     output: web
     folderitems:
     - title: Bootcamp
-      url: /bootcamps/index.md
+      url: /bootcamp_sp.md
       output: web
     # - title: Theme instructions
     #   url: /mydoc_introduction.html
