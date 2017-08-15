@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+    font-family: 'Lato', sans-serif;    
+}
+
 .summary {
     color: #808080;
     border-left: 5px solid #E50E51;
     font-size:16px;
 }
+
+
+
 
 h1 {
     font-weight: bold;
