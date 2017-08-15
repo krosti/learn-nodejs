@@ -1,8 +1,7 @@
 ---
 permalink: exercises_api.html
+title: Globant NodeJS practice project 🙌
 ---
-
-# Globant NodeJS practice project
 
 El objetivo es armar una API para poder mostrar los respositorios de un usuario y su información en la aplicación frontend especificada en [angularjs-practice](/angularjs-practice)
 
