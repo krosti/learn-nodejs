@@ -1,5 +1,5 @@
 ---
-permalink: exercises_1.html
+permalink: exercises_api.html
 ---
 
 # Globant NodeJS practice project

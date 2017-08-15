@@ -8,6 +8,6 @@ permalink: exercises_index.html
 
 
 
-- [Simple SPA + API](exercises_1.html)
+- [Simple SPA + API](exercises_api.html)
 - Exercise 2
     - Exercise 2.1
