@@ -12,7 +12,7 @@ The term REPL stands for *Read Eval Print and Loop*. It specifies a computer env
 
 ### REPL Environment
 
-The NodeJS or node come bundled with REPL environment. Each part of the REPL environment has a specific work.
+The Node.js or node come bundled with REPL environment. Each part of the REPL environment has a specific work.
 
 * Read: It reads user's input; parse the input into JavaScript data-structure and stores in memory.
 * Eval: It takes and evaluates the data structure.
@@ -21,7 +21,7 @@ The NodeJS or node come bundled with REPL environment. Each part of the REPL env
 
 ### How to start REPL
 
-You can start REPL by simply running "node" on the command prompt. You can execute various mathematical operations on REPL NodeJS command prompt:
+You can start REPL by simply running "node" on the command prompt. You can execute various mathematical operations on REPL Node.js command prompt:
 
 ![](images/03-repl.png)
 
@@ -42,7 +42,7 @@ tab keys | It specifies the list of current command.
 
 ## CLI
 
-There is a wide variety of command line options in NodeJS. These options provide multiple ways to execute scripts and other helpful run-time options.
+There is a wide variety of command line options in Node.js. These options provide multiple ways to execute scripts and other helpful run-time options.
 
 Option   | Description
 ---------|----------

@@ -8,7 +8,7 @@ permalink: hello-world.html
 
 ## Hello World
 
-Writing a NodeJS program is as simple as creating a new file with a `.js` extension. For example you could create a simple `hello_world.js` file with the following content:
+Writing a Node.js program is as simple as creating a new file with a `.js` extension. For example you could create a simple `hello_world.js` file with the following content:
 
 ```
 console.log('Hello World!');

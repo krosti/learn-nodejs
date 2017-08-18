@@ -10,15 +10,15 @@ permalink: installation.html
 
 ### Windows
 
-The NodeJS Runtime:
+The Node.js Runtime:
 
-The source code written in source file is simply JavaScript. It is interpreted and executed by the NodeJS interpreter.
+The source code written in source file is simply JavaScript. It is interpreted and executed by the Node.js interpreter.
 
-You can download the latest version of NodeJS installable archive file from [https://nodejs.org/en/](https://nodejs.org/en/) and follow the installation steps by clicking Next in each screen.
+You can download the latest version of Node.js installable archive file from [https://nodejs.org/en/](https://nodejs.org/en/) and follow the installation steps by clicking Next in each screen.
 
 ### Linux
 
-We can easily install NodeJS on linux/ubuntu/centOS/fedora/linuxmint etc. To install NodeJS on Linux (Ubuntu) operating system, follow these instructions:
+We can easily install Node.js on linux/ubuntu/centOS/fedora/linuxmint etc. To install Node.js on Linux (Ubuntu) operating system, follow these instructions:
 
 1. Open Ubuntu Terminal (You can use shortcut keys (Ctrl+Alt+T)
 2. Type command `sudo apt-get install python-software-properties`
@@ -31,9 +31,9 @@ We can easily install NodeJS on linux/ubuntu/centOS/fedora/linuxmint etc. To ins
 
 ### Mac
 
-You can download the latest version of NodeJS installable archive file from [https://nodejs.org/en/](https://nodejs.org/en/) and follow the installation steps by clicking Next in each screen.
+You can download the latest version of Node.js installable archive file from [https://nodejs.org/en/](https://nodejs.org/en/) and follow the installation steps by clicking Next in each screen.
 
-But the easiest way of install NodeJS in Mac is using [Brew](https://brew.sh)
+But the easiest way of install Node.js in Mac is using [Brew](https://brew.sh)
 
 If you don't have brew installed, you can install it with the following command line 
 
@@ -51,6 +51,6 @@ Next, install Node (npm will be installed with Node):
 
 ## Checks
 
-When the installation is completed you can check the version of NodeJS by running `node --version`
+When the installation is completed you can check the version of Node.js by running `node --version`
 
 And check the version of npm by running `npm -v`

@@ -8,7 +8,7 @@ permalink: globals.html
 
 ## Global Objects
 
-NodeJS global objects are global in nature and available in all modules. You don't need to include these objects in your application; rather they can be used directly. These objects are modules, functions, strings and object etc. Some of these objects aren't actually in the global scope but in the module scope.
+Node.js global objects are global in nature and available in all modules. You don't need to include these objects in your application; rather they can be used directly. These objects are modules, functions, strings and object etc. Some of these objects aren't actually in the global scope but in the module scope.
 
 Global objects are given below:
 
@@ -42,9 +42,9 @@ console.log(__filename);  // outputs: /var/www/my-projects/my-sample.js
 
 ### Console
 
-The NodeJS console module provides a simple debugging console similar to JavaScript console mechanism provided by web browsers.
+The Node.js console module provides a simple debugging console similar to JavaScript console mechanism provided by web browsers.
 
-There are three console methods that are used to write any NodeJS stream:
+There are three console methods that are used to write any Node.js stream:
 
 * console.log() is used to display simple message on console.
 * console.error() is used to render error message on console.
@@ -58,7 +58,7 @@ console.warn('I am warning');
 
 ### Buffers 
 
-NodeJS provides Buffer class to store raw data similar to an array of integers but corresponds to a raw memory allocation outside the V8 heap. Buffer class is used because pure JavaScript is not nice to binary data. So, when dealing with TCP streams or the file system, it's necessary to handle octet streams.
+Node.js provides Buffer class to store raw data similar to an array of integers but corresponds to a raw memory allocation outside the V8 heap. Buffer class is used because pure JavaScript is not nice to binary data. So, when dealing with TCP streams or the file system, it's necessary to handle octet streams.
 
 Buffer class is a global class. It can be accessed in application without importing buffer module.
 

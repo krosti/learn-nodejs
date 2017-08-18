@@ -23,9 +23,21 @@ entries:
     - title: Event Loop
       url: /event-loop.html
       output: web
-    - title: Node Packager Managers
+    - title: Node Package Managers
       url: /package-manager.html
+      output: web
+    - title: NPM Scripts
+      url: /npm-scripts.html
       output: web
     - title: Hello World
       url: /hello-world.html
+      output: web
+    - title: Exercises
+      url: /exercises-1.html
+      output: web
+    - title: Modules
+      url: /modules.html
+      output: web
+    - title: Cryptography
+      url: /crypto.html
       output: web
