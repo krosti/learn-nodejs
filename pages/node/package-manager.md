@@ -12,16 +12,22 @@ permalink: package-manager.html
 
 Node Package Manager provides two main functionalities:
 
-* It provides online repositories for NodeJS packages/modules which are searchable on search.nodejs.org
-* It also provides command line utility to install NodeJS packages, do version management and dependency management of NodeJS packages.
+* It provides online repositories for Node.js packages/modules which are searchable on search.nodejs.org
+* It also provides command line utility to install Node.js packages, do version management and dependency management of Node.js packages.
 
-The npm comes bundled with NodeJS installables in versions after that v0.6.3. You can check the version by opening NodeJS command prompt and typing the following command:
+The npm comes bundled with Node.js installables in versions after that v0.6.3. You can check the version by opening Node.js command prompt and typing the following command:
 
 `npm -v`
 
+#### Generating a package.json
+
+You can use `npm init` to create the `package.json`. It will prompt you for values for the `package.json` fields. The two required fields are name and version. You'll also want to have a value for main. You can use the default, `index.js`, or add your own like `main.js` or `app.js`.
+
+To understand each value of the `package.json` file, I strongly recommend this [interactive guide](http://browsenpm.org/package.json).
+
 #### Installing Modules
 
-Following is the syntax to install any NodeJS module:
+Following is the syntax to install any Node.js module:
 
 `npm install <module name>`
 
@@ -31,7 +37,7 @@ for example
 
 #### Uninstalling Modules
 
-To uninstall a NodeJS module, use the following command:
+To uninstall a Node.js module, use the following command:
 
 `npm uninstall <module name>`
 

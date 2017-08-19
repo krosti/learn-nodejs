@@ -8,13 +8,13 @@ permalink: event-loop.html
 
 ## What is the Event Loop?
 
-The event loop is what allows NodeJS to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded — by offloading operations to the system kernel whenever possible.
+The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded — by offloading operations to the system kernel whenever possible.
 
-Since most modern kernels are multi-threaded, they can handle multiple operations executing in the background. When one of these operations completes, the kernel tells NodeJS so that the appropriate callback may be added to the poll queue to eventually be executed. We'll explain this in further detail later in this topic.
+Since most modern kernels are multi-threaded, they can handle multiple operations executing in the background. When one of these operations completes, the kernel tells Node.js so that the appropriate callback may be added to the poll queue to eventually be executed. We'll explain this in further detail later in this topic.
 
 ### Event Loop Explained
 
-When NodeJS starts, it initializes the event loop, processes the provided input script which may make async API calls, schedule timers, or call process.nextTick(), then begins processing the event loop.
+When Node.js starts, it initializes the event loop, processes the provided input script which may make async API calls, schedule timers, or call process.nextTick(), then begins processing the event loop.
 
 ```
    ┌───────────────────────┐
@@ -50,11 +50,11 @@ Since any of these operations may schedule more operations and new events proces
 * check: setImmediate() callbacks are invoked here.
 * close callbacks: e.g. socket.on('close', ...).
 
-Between each run of the event loop, NodeJS checks if it is waiting for any asynchronous I/O or timers and shuts down cleanly if there are not any.
+Between each run of the event loop, Node.js checks if it is waiting for any asynchronous I/O or timers and shuts down cleanly if there are not any.
 
 ### Limitations
 
-Because of the event loop, NodeJS doesn't have to start a new thread for every incoming tcp connection. This allows node to service hundreds of thousands of requests concurrently , as long as you aren't calculating the first 1000 prime numbers for each request.
+Because of the event loop, Node.js doesn't have to start a new thread for every incoming tcp connection. This allows node to service hundreds of thousands of requests concurrently , as long as you aren't calculating the first 1000 prime numbers for each request.
 
 This also means it's important to not do CPU intensive operations, as these will keep a lock on the event loop and prevent other asynchronous paths of execution from continuing. It's also important to not use the sync variant of all the I/O methods, as these will keep a lock on the event loop as well.
 
