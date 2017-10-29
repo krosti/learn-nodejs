@@ -33,3 +33,9 @@ Bookmark: [http://nodejs.org/api](http://nodejs.org/api/) (you will come back to
 If you have *never* written any code of any sort before,
 I recommend you starting with: http://gitbookio.gitbooks.io/javascript/
 You need to have **JavaScript** basics to make the most of Node.js
+
+---
+
+## Start creating JavaScript applications with Node.js
+
+### [➡️ Start your Node.js training today, it's free! 😄](what-is-node.html)
